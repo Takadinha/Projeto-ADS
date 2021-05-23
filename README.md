@@ -10,8 +10,8 @@
 
 * **Nome:** Kauê Yotsuo Pereira Takada **Tia:** 31950027
 * **Nome:** Giovani Carregalo **Tia:** 31945351
-* **Nome:**Anderson Kenzo Arakaki ** TIA:** 31959008
-* **Nome:**Gustavo Lepore ** TIA:**  31944671
+* **Nome:** Anderson Kenzo Arakaki **TIA:** 31959008
+* **Nome:** Gustavo Lepore **TIA:**  31944671
 ______________________________________
 
  
