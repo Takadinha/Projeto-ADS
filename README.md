@@ -2,8 +2,9 @@
 
 ## Turma: 05H11
 
-# *Aplicativo para Recomendação de Filmes, Séries e
-Livros*  ![](https://culturaalternativa.com.br/wp-content/uploads/2018/02/livros-e-filmes.png)                        
+# *Aplicativo para Recomendação de Filmes, Séries e Livros* 
+
+![](https://culturaalternativa.com.br/wp-content/uploads/2018/02/livros-e-filmes.png)                        
 
 ## Integrantes do grupo:
 
