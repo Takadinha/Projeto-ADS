@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <style type="text/css">
+        img {
+            padding:0%;
+
+        }
+        .bt{
+            margin-left: 10px;
+        }
+        .bt:hover{
+            background-color: grey;
+        }
+
+      </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Cadastro de filmes</title>
+</head>
+<body class= "bg-dark">
+    
+<div >
+    
+    <nav class="navbar navbar-expand navbar-light bg-dark d-flex justify-content-between ">
+        <div class="text-left">
+            <a href="index"><img src="logo.png" class="rounded" width="30%" height="30%" alt="..."></a>
+          </div>
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active text-light bt" href="/obra/cadastrafilmes">Cadastro de filmes</a>
+            <a class="nav-item nav-link active text-light bt" href="/obra/cadastraseries">Cadastro de series</a>
+            <a class="nav-item nav-link active text-light bt" href="/obra/cadastralivros">Cadastro de livros</a>
+
+        </div>
+    </nav>
+    <div class="card mt-0 bg-light" >
+    <form class="card-body" action="/obra/newbook" method="POST">
+        <div class="jumbotron mb-0">
+            <h1 class="display-6">Cadastro de livro</h1>
+        </div>
+            <div class="col-5">
+            <div class="form-group">
+                <label>Nome</label>
+                <input class="form-control" name="nomeTitulo"  placeholder="Nome do livro">
+            </div>
+            <div class="form-group">
+                <label>Autor</label>
+                <input class="form-control" name="autor" placeholder="Nome do autor">
+            </div>
+            <div class="form-group">
+                <label>Ano de Lançamento</label>
+                <input class="form-control" name="anoLancamento" type="number" placeholder="Ano de lançamento">
+            </div>
+            <div class="form-group">
+                <label>País de origem</label>
+                <input class="form-control" name="pais" placeholder="País do filme">
+            </div>
+            <div class="form-group">
+                <label>Editora</label>
+                <input class="form-control" name="editora" placeholder="País do filme">
+            </div>
+
+            <div class="form-group">
+                <label>Imagem</label>
+                <input class="form-control" name="urlImagem" placeholder="Url da imagem do filme">
+            </div>
+                </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" >
+           
+            <a type="button" class="btn btn-secondary" href="/index" >Cancelar</a>
+            <button type="submit" class="btn btn-success me-md-2">Enviar cadastrar</button>
+           
+          </div>
+    </form>
+    </div>
+
+
+</div>
+</body>
+</html>
