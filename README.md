@@ -4,7 +4,8 @@
 
 # *Aplicativo para Recomendação de Filmes, Séries e Livros* 
 
-![](https://culturaalternativa.com.br/wp-content/uploads/2018/02/livros-e-filmes.png)                        
+[![](https://culturaalternativa.com.br/wp-content/uploads/2018/02/livros-e-filmes.png)](https://www.youtube.com/watch?v=Nl3KaQ1XjmM)      
+Clique na imagem para acessar o vídeo.
 
 ## Integrantes do grupo:
 
